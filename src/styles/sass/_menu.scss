@@ -2,7 +2,7 @@ header{
   width: 100%;
   height: 80px;
 
-  padding: 6px 18px;
+  padding: 16px 1.125rem;
 
   transition: 1s ease;
 
@@ -27,6 +27,11 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &.navbar-desktop > .navbar-desktop-item-1 > #logo-container > h5 {
+    font-weight: 500;
+    color: $white-dark;
+  }
 }
 
 

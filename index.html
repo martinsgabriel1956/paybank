@@ -3,12 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
     <meta name="keywords" content="frontend, css, ux, ui, html, javascript" />
     <title>PayBank</title>
-    <script src="svg-inject.min.js"></script>
+    <script src="/src/js/svg-inject.min.js"></script>
   </head>
   <body>
-    
+    <header id="header">
+      <nav class="navbar-desktop">
+        <div class="navbar-desktop-item-1">
+          <a id="logo-container" href="#" class="logo flex-center gap-2">
+            <img src="/src/assets/svg/logo.svg" class="w-auto" alt="" onload="SVGInject(this)"></img>
+            <h5 class="disappear">PayBank.</h5>
+          </a>
+        </div>
+        <div class="navbar-desktop-item-2 flex-center gap-4">
+          <div class=" disappear">
+            <a href="#">Features</a>
+          </div>
+          <div class="disappear">
+            <a href="#">Nosso App</a>
+          </div>
+          <div class="">
+            <a href="#" class="btn-small">Junte-se a nós</a>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="navbar-mobile">
+
+      </nav> -->
+    </header>
   </body>
 </html>
